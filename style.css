@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    padding: 20px;
+    gap: 30%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-left: 18px;
+}
+
+.logo img{
+    height: 70px;
+    /* background-color: black; */
+}
+
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin: 0 0 0 14px;
+    /* border: rgb(0, 153, 255) 1px solid; */
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: rgb(145, 145, 145);
+    text-decoration: underline;
+}
+
+.main{
+    display: flex;
+    align-content: center;
+    background-color: rgb(44, 44, 44);
+}
+.left-side{
+    width: 70%;
+    padding: 50px;
+    color: white;
+    /* background-color: red; */
+}
+.right-side{
+    width: 30%;
+    padding: 50px;
+    /* background-color: blue; */
+}
+.main #title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.main #description{
+    margin-bottom: 50px;
+}
+.left-side a{
+    padding: 14px 24px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.left-side a:hover{
+    /* background-color: rgb(77, 255, 246); */
+    border: 2px solid rgb(77, 255, 246);
+    color: rgb(145, 145, 145);
+}
+
