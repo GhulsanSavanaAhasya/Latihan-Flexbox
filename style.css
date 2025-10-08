@@ -2,8 +2,8 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 1000px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 10000px;
 }
 
 .navbar{
@@ -54,16 +54,19 @@ body{
     background-color: rgb(44, 44, 44);
     border-radius: 0 0 50px 50px;
     box-shadow: 0 10px 20px rgba(44, 44, 44, 0.9);
+    height: 90vh;
 }
 .left-side{
     width: 70%;
     padding: 50px;
+    margin: 0 0 0 100px;
     color: white;
     /* background-color: red; */
 }
 .right-side{
     width: 30%;
     padding: 50px;
+    margin: 0 100px 0 0;
     /* background-color: blue; */
 }
 .main #title{
@@ -87,3 +90,45 @@ body{
     color: rgb(44, 44, 44);
 }
 
+.projects{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 100px 0 0 0;
+}
+.projects h2{
+    margin: 0 0 50px 0;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 4px;
+    text-decoration-color: rgb(77, 255, 246);
+    color: rgb(44, 44, 44);
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 0 50px 0;
+}
+.card img{
+    width: 350px;
+    height: 175px;
+    object-fit: cover;
+    background-color: rgb(44, 44, 44);
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    box-shadow: -10px -5px 10px rgba(0, 0, 0, 0.7);
+}
+.projects a{
+    padding: 14px 24px;
+    border: 2px solid rgb(44, 44, 44);
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+    border-radius: 4px;
+}
+.projects a:hover{
+    background-color: rgb(44, 44, 44);
+    border: 2px solid rgb(44, 44, 44);
+    color: white;
+}
